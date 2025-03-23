@@ -47,33 +47,38 @@ document.addEventListener('DOMContentLoaded', function() {
 
 let datafoproject =[
     {
-        projectname : "Age Calculator",
-        projectdetail:"This age calculator project helps users determine their exact age in years, months, and days based on their date of birth.",
-        githublink:"https://github.com/kamranikramofficial/simple-html-project/tree/main/Age%20Calculator",
-        livepereve:
+        title : "Age Calculator",
+        description:"This age calculator project helps users determine their exact age in years, months, and days based on their date of birth.",
+        githubLink:"https://github.com/kamranikramofficial/simple-html-project/tree/main/Age%20Calculator",
+        livePreview:"https://kamranikramofficial.github.io/simple-html-project/Age%20Calculator/index.html",
     
-
+    },
+    {
+        title : "CountDown_Timer",
+        description:"This Countdown Timer project allows users to set a specific time duration and counts down to zero, providing a visual and/or audio alert when the time is up.",
+        githubLink:"https://github.com/kamranikramofficial/simple-html-project/tree/main/CountDown_Timer",
+        livePreview:"https://kamranikramofficial.github.io/simple-html-project/CountDown_Timer/index.html",
     }
 ]
 
-
-
-  
-// {/* <div class="project-section">
-// <h2>My Project</h2>
-// <div class="project-card">
-//     <div class="project-icon">
-//         <i class="fa-solid fa-code"></i>
-//     </div>
-//     <div class="project-details">
-//         <h3>Simple HTML Project</h3>
-//         <p>A lightweight, clean HTML starter template for building modern websites.</p>
-//         <a href="https://github.com/kamranikramofficial/simple-html-project" class="project-link" target="_blank">
-//             <i class="fab fa-github"></i> View on GitHub
-//         </a> &nbsp &nbsp &nbsp
-//         <a href="https://github.com/kamranikramofficial/simple-html-project" class="project-link" target="_blank">
-//             <i class="fab fa-github"></i> Live Perview
-//         </a>
-//     </div>
-// </div>
-// </div> */}
+let main = document.getElementById("project-details");
+datafoproject.forEach((project) => {
+    main.innerHTML += `
+        <div class="project-card">
+            <div class="project-icon">
+                <i class="fa-solid fa-code"></i>
+            </div>
+            <div class="project-details">
+                <h3>${project.title}</h3>
+                <p>${project.description}</p>
+                <a href="${project.githubLink}" class="project-link" target="_blank">
+                    <i class="fab fa-github"></i> View on GitHub
+                </a> &nbsp &nbsp &nbsp
+                <a href="${project.livePreview}" class="project-link" target="_blank">
+                <i class="fa-solid fa-magnifying-glass"></i> Live Preview
+                </a>
+            </div>
+        </div>
+        <br>
+    `;
+});
