@@ -51,7 +51,7 @@ let datafoproject = [
         description: "This Color Picker project allows users to select and copy colors easily, providing a seamless way to choose and apply colors for design and development purposes.",
         githubLink: "https://github.com/kamranikramofficial/simple-html-project/tree/main/color-pick",
         livePreview: "https://kamranikramofficial.github.io/simple-html-project/color-pick/index.html",
-        img:'',
+        img:'<i class="fa-solid fa-palette"></i>',
 
     },
     {
