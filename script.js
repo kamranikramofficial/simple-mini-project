@@ -47,6 +47,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
 let datafoproject = [
     {
+        title: "color-pick",
+        description: "This Color Picker project allows users to select and copy colors easily, providing a seamless way to choose and apply colors for design and development purposes.",
+        githubLink: "https://github.com/kamranikramofficial/simple-html-project/tree/main/color-pick",
+        livePreview: "https://kamranikramofficial.github.io/simple-html-project/color-pick/index.html",
+        img:'',
+
+    },
+    {
         title: "Age Calculator",
         description: "This age calculator project helps users determine their exact age in years, months, and days based on their date of birth.",
         githubLink: "https://github.com/kamranikramofficial/simple-html-project/tree/main/Age%20Calculator",
