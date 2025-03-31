@@ -241,6 +241,16 @@ footer {
         margin-right: 0;
         margin-bottom: 15px;
     }
+    .project-link{
+        margin-bottom: 10px;
+
+    }
+    .project-link-pa{
+        padding-left:29px;
+        padding-right:29px;
+        margin-left: -23px;
+
+    }
     
     .skills {
         justify-content: center;
