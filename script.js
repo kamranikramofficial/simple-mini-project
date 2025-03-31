@@ -145,7 +145,7 @@ datafoproject.forEach((project) => {
                 <a href="${project.githubLink}" class="project-link" target="_blank">
                     <i class="fab fa-github"></i> View on GitHub
                 </a> &nbsp &nbsp &nbsp
-                <a href="${project.livePreview}" class="project-link" target="_blank">
+                <a href="${project.livePreview}" class="project-link project-link-pa " target="_blank">
                 <i class="fa-solid fa-magnifying-glass"></i> Live Preview
                 </a>
             </div>
