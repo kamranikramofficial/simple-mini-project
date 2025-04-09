@@ -103,13 +103,6 @@ let datafoproject = [
         img: '<i class="fa-solid fa-clock"></i>',
     },
     {
-        title: "Todo App",
-        description: "This To-Do App project helps users organize tasks by adding, updating, and deleting items, improving productivity with a simple and interactive task management system.",
-        githubLink: "https://github.com/kamranikramofficial/simple-mini-project/tree/main/Todo App",
-        livePreview: "https://kamranikramofficial.github.io/simple-mini-project/Todo App/index.html",
-        img: '<i class="fa-solid fa-calendar-check"></i>',
-    },
-    {
         title: "add-friend",
         description: " friend request system like Facebook,",
         githubLink: "https://github.com/kamranikramofficial/simple-mini-project/tree/main/add-friend",
