@@ -51,7 +51,7 @@ let datafoproject = [
         description: "This Color Picker project allows users to select and copy colors easily, providing a seamless way to choose and apply colors for design and development purposes.",
         githubLink: "https://github.com/kamranikramofficial/simple-mini-project/tree/main/color-pick",
         livePreview: "https://kamranikramofficial.github.io/simple-mini-project/color-pick/index.html",
-        img:'<i class="fa-solid fa-palette"></i>',
+        img: '<i class="fa-solid fa-palette"></i>',
 
     },
     {
@@ -59,7 +59,7 @@ let datafoproject = [
         description: "This age calculator project helps users determine their exact age in years, months, and days based on their date of birth.",
         githubLink: "https://github.com/kamranikramofficial/simple-mini-project/tree/main/Age%20Calculator",
         livePreview: "https://kamranikramofficial.github.io/simple-mini-project/Age%20Calculator/index.html",
-        img:'<i class="fa-solid fa-calculator"></i>',
+        img: '<i class="fa-solid fa-calculator"></i>',
 
     },
     {
@@ -82,20 +82,20 @@ let datafoproject = [
         githubLink: "https://github.com/kamranikramofficial/simple-mini-project/tree/main/Expense Tracker",
         livePreview: "https://kamranikramofficial.github.io/simple-mini-project/Expense Tracker/index.html",
         img: '<i class="fa-solid fa-code"></i>',
-    },    {
+    }, {
         title: "Nav Bar",
         description: "This Navigation Bar (Nav Bar) project provides an easy-to-use and responsive menu for seamless website navigation, enhancing user experience with quick access to different sections or pages.",
         githubLink: "https://github.com/kamranikramofficial/simple-mini-project/tree/main/Nav Bar",
         livePreview: "https://kamranikramofficial.github.io/simple-mini-project/Nav Bar/index.html",
         img: '<i class="fa-brands fa-html5"></i>',
-    },    {
+    }, {
         title: "Password Generator",
         description: "This Password Generator project creates strong, random passwords based on user-selected criteria, ensuring enhanced security for online accounts and data protection.",
         githubLink: "https://github.com/kamranikramofficial/simple-mini-project/tree/main/Password Generator",
         livePreview: "https://kamranikramofficial.github.io/simple-mini-project/Password Generator/index.html",
         img: '<i class="fa-solid fa-lock"></i>',
-    },   
-     {
+    },
+    {
         title: "Timer",
         description: "This Timer project allows users to set a countdown for a specific duration, providing visual and/or audio alerts when the time reaches zero, making it useful for productivity and time management.",
         githubLink: "https://github.com/kamranikramofficial/simple-mini-project/tree/main/Timer",
@@ -144,5 +144,6 @@ datafoproject.forEach((project) => {
             </div>
         </div>
         <br>
+
     `;
 });
