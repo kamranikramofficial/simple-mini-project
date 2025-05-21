@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Modern Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="display-container">
+                <div class="calculator-brand">
+                    <span class="brand-text">CALC<span class="brand-highlight">PRO</span></span>
+                </div>
+                <input type="text" placeholder="0" id="inputBox" readonly>
+            </div>
+            <div class="buttons-container">
+                <div class="row">
+                    <div class="button-wrapper">
+                        <button class="special-btn" id="ac">AC<span class="key-hint">Esc</span></button>
+                    </div>
+                    <div class="button-wrapper">
+                        <button class="special-btn" id="del">DEL<span class="key-hint">⌫</span></button>
+                    </div>
+                    <div class="button-wrapper">
+                        <button class="operator">%</button>
+                    </div>
+                    <div class="button-wrapper">
+                        <button class="operator">/</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="button-wrapper">
+                        <button class="number">7</button>
+                    </div>
+                    <div class="button-wrapper">
+                        <button class="number">8</button>
+                    </div>
+                    <div class="button-wrapper">
+                        <button class="number">9</button>
+                    </div>
+                    <div class="button-wrapper">
+                        <button class="operator">*</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="button-wrapper">
+                        <button class="number">4</button>
+                    </div>
+                    <div class="button-wrapper">
+                        <button class="number">5</button>
+                    </div>
+                    <div class="button-wrapper">
+                        <button class="number">6</button>
+                    </div>
+                    <div class="button-wrapper">
+                        <button class="operator">-</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="button-wrapper">
+                        <button class="number">1</button>
+                    </div>
+                    <div class="button-wrapper">
+                        <button class="number">2</button>
+                    </div>
+                    <div class="button-wrapper">
+                        <button class="number">3</button>
+                    </div>
+                    <div class="button-wrapper">
+                        <button class="operator">+</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="button-wrapper">
+                        <button class="number">00</button>
+                    </div>
+                    <div class="button-wrapper">
+                        <button class="number">0</button>
+                    </div>
+                    <div class="button-wrapper">
+                        <button class="number">.</button>
+                    </div>
+                    <div class="button-wrapper">
+                        <button class="equalBtn" id="equals">=<span class="key-hint">Enter</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
