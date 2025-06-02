@@ -24,7 +24,6 @@ class EnhancedECommerceStore {
 
     async fetchAllProducts() {
         try {
-            // Fetch all products from different endpoints
             const endpoints = [
                 'https://fakestoreapi.com/products',
                 'https://fakestoreapi.com/products/category/electronics',
@@ -33,7 +32,6 @@ class EnhancedECommerceStore {
                 'https://fakestoreapi.com/products/category/women\'s%20clothing'
             ];
 
-            // Use the main endpoint to get all products
             const response = await fetch('https://fakestoreapi.com/products');
             this.products = await response.json();
 
