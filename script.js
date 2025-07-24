@@ -123,7 +123,99 @@ let datafoproject = [
         livePreview: "https://kamranikramofficial.github.io/simple-mini-project/courser/index.html",
         img: '<i class="fa-solid fa-laptop-code"></i>',
     },
+    {
+        title: "3d Loop Animation Use image",
+        description: "This project Only Image Take Full Secreen And Top to Buttom or other.",
+        githubLink: "https://github.com/kamranikramofficial/simple-mini-project/tree/main/3d",
+        livePreview: "https://kamranikramofficial.github.io/simple-mini-project/3d/index.html",
+        img: '<i class="fa-solid fa-loop-code"></i>',
+    },
+    {
+        title: "BirthdayAnimationCard",
+        description: "This project create some Carde and in this 3 animation.",
+        githubLink: "https://github.com/kamranikramofficial/simple-mini-project/tree/main/birthday-animation-card",
+        livePreview: "https://kamranikramofficial.github.io/simple-mini-project/birthday-animation-card/index.html",
+        img: '<i class="fa-solid fa-laptop-code"></i>',
+    },
+    {
+        title: "Button",
+        description: "This project in Different Type Animation transition Animatios .",
+        githubLink: "https://github.com/kamranikramofficial/simple-mini-project/tree/button/courser",
+        livePreview: "https://kamranikramofficial.github.io/simple-mini-project/button/index.html",
+        img: '<i class="fa-solid fa-laptop-code"></i>',
+    },
+    {
+        title: "Button_Bacground_Animation",
+        description: "This project Animation Border oR BackGrounde .",
+        githubLink: "https://github.com/kamranikramofficial/simple-mini-project/tree/main/button-ani",
+        livePreview: "https://kamranikramofficial.github.io/simple-mini-project/button-ani/index.html",
+        img: '<i class="fa-solid fa-laptop-code"></i>',
+    },
+    {
+        title: "Button Glow",
+        description: "This project The button Glow bacgrounde and Click than full Button in Glow .",
+        githubLink: "https://github.com/kamranikramofficial/simple-mini-project/tree/main/button-glow",
+        livePreview: "https://kamranikramofficial.github.io/simple-mini-project/button-glow/index.html",
+        img: '<i class="fa-solid fa-laptop-code"></i>',
+    },
+    {
+        title: "car",
+        description: "This project One car run starte day and night and day .",
+        githubLink: "https://github.com/kamranikramofficial/simple-mini-project/tree/main/car",
+        livePreview: "https://kamranikramofficial.github.io/simple-mini-project/car/index.html",
+        img: '<i class="fa-solid fa-laptop-code"></i>',
+    },
+    {
+        title: "calculater",
+        description: "This project Simple Calculater And Calculate .",
+        githubLink: "https://github.com/kamranikramofficial/simple-mini-project/tree/main/calculator",
+        livePreview: "https://kamranikramofficial.github.io/simple-mini-project/calculator/index.html",
+        img: '<i class="fa-solid fa-laptop-code"></i>',
+    },
+    {
+        title: "Ecommerce",
+        description: "This project ui like ecommerce and this Scroll Animation .",
+        githubLink: "https://github.com/kamranikramofficial/simple-mini-project/tree/main/ecommerce",
+        livePreview: "https://kamranikramofficial.github.io/simple-mini-project/ecommerce/index.html",
+        img: '<i class="fa-solid fa-laptop-code"></i>',
+    },
+    {
+        title: "Hover_Effect_mouse_Moving",
+        description: "This project my Mouse move and Move Effect in the page .",
+        githubLink: "https://github.com/kamranikramofficial/simple-mini-project/tree/main/hover-effect-mouse-moving",
+        livePreview: "https://kamranikramofficial.github.io/simple-mini-project/hover-effect-mouse-moving/index.html",
+        img: '<i class="fa-solid fa-laptop-code"></i>',
+    },
+    {
+        title: "MokeUp",
+        description: "This project create a Mokeup In the Box of Iphone .",
+        githubLink: "https://github.com/kamranikramofficial/simple-mini-project/tree/main/iphoneBox",
+        livePreview: "https://kamranikramofficial.github.io/simple-mini-project/iphoneBox/index.html",
+        img: '<i class="fa-solid fa-laptop-code"></i>',
+    },
+    {
+        title: "SmokeAnimation",
+        description: "This project Relode The page and my name background smoking Effect ",
+        githubLink: "https://github.com/kamranikramofficial/simple-mini-project/tree/main/smoke animation",
+        livePreview: "https://kamranikramofficial.github.io/simple-mini-project/smoke animation/index.html",
+        img: '<i class="fa-solid fa-laptop-code"></i>',
+    },
+    {
+        title: "SocailLink",
+        description: "This project My all Socail Account Link in the Side .",
+        githubLink: "https://github.com/kamranikramofficial/simple-mini-project/tree/main/sociallink",
+        livePreview: "https://kamranikramofficial.github.io/simple-mini-project/sociallink/index.html",
+        img: '<i class="fa-solid fa-laptop-code"></i>',
+    },
+    {
+        title: "Traffic Light Effect",
+        description: "This project create and Traffic Light Effect .",
+        githubLink: "https://github.com/kamranikramofficial/simple-mini-project/tree/main/traffic-light",
+        livePreview: "https://kamranikramofficial.github.io/simple-mini-project/traffic-light/index.html",
+        img: '<i class="fa-solid fa-laptop-code"></i>',
+    }
 ]
+
 
 let main = document.getElementById("project-details");
 datafoproject.forEach((project) => {
